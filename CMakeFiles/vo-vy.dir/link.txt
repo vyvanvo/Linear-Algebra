@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/vo-vy.dir/vo-vy.cpp.o  -o vo-vy 
