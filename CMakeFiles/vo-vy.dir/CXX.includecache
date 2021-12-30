@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lab/Vo-Vy/linearalgebra.h
+iostream
+-
+vector
+-
+
+/home/lab/Vo-Vy/vo-vy.cpp
+linearalgebra.h
+/home/lab/Vo-Vy/linearalgebra.h
+iostream
+-
+string
+-
+sstream
+-
+vector
+-
+
