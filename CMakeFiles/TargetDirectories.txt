@@ -1,0 +1,3 @@
+/home/lab/Linear Algebra/CMakeFiles/rebuild_cache.dir
+/home/lab/Linear Algebra/CMakeFiles/main.dir
+/home/lab/Linear Algebra/CMakeFiles/edit_cache.dir
