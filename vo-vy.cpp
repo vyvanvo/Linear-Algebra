@@ -127,9 +127,15 @@ int main() {
 	menu();	
     cin >> option;
 	
-	while (option < 3) {
-		selectOption(option);
-    	menu();	
+	while (option != 3) {
+		if (option == 1 || option == 2) {
+			selectOption(option);
+    		menu();
+    	}
+    	else {
+    		menu();
+    	}	
+    	
     	cin >> option;
     }
     
