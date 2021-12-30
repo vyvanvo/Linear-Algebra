@@ -117,8 +117,8 @@ vector<vector<int>> matrix_multiplication(vector<vector<vector<int>>> v_mult_mat
         */
 
         if (col1 != row2) {
-        	cout << "row 2: " << row2 << endl;
-        	cout << "col 1: " << col1 << endl;
+        	cout << "Matrix " << (i+1) << " column: " << col1 << endl;
+        	cout << "Matrix " << (i+2) << " row: " << row2 << endl;
             cout << "Cannot multiply Matrix " << (i+1) << " and " << "Matrix " << (i+2) << ". Mismatched dimensions." << endl;
         	cout << endl;
            
